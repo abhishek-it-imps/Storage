@@ -1,0 +1,67 @@
+symcfg
+
+symcfg list : A brief description of the all connected Symmetrix boxes.
+symcfg -sid 1234 list -lockn all : Lists all the external locks held in Symmetrix array 1234.
+symcfg -sid 1234 -lockn 15 release -force : Release the lock 15 held on array 1234 .
+symcfg -sid 1234 list -v : Displays detailed information about the Symmetrix Array 1234.
+symcfg -sid 1234 -dir 4a -p 0 list -addr -avail : Lists the LUN information / availability of lun ids on port 4a:0 in array 1234 .
+symcfg -sid 1234 list -rdfg all : List details about all the rdf groups in array.
+symcfg -sid 1234 list -rdfg 3 : List details about rdf group 3 .
+symcfg -sid 1234 list -rdfg all -dynamic : List details about all the dynamic rdf groups in array .
+symcfg -sid 1234 list -rdfg all -static : List details about all the static rdf groups in array .
+symcfg -sid 1234 list -ra all : List all RA ports with details like rdfg number , remote array sid and online status.
+symcfg discover : Scans all the devices in hosts looking for new symmetrix devices and rebuilds the symmetrix configuration database .
+
+symdev
+
+symdev -sid 1234 list : Lists all devices in symmetrix 1234.
+symdev -sid 1234 list -noport : Lists the devices which are not mapped to any ports.
+symdev -sid 1234 list -noport -meta : Lists all unmapped meta devices .
+symdev -sid 1234 list -dynamic : Lists all devices whose dyn_rdf attribute set .
+symdev -sid 1234 list -hotspare : Checks whether hotspare invoked in the array .
+symdev -sid 1234 show ABC : show the detailed information about the device ABC.
+symdev -sid 1234 write_disable ABC -SA all : Write disable the device ABC from through all directors.
+symdev -sid 1234 not_ready ABC -SA all : Not ready the device ABC from through all directors.
+
+symmaskdb
+
+symmaskdb -sid 1234 -dev ABC list assign : List the masking details of the dev ABC .
+symmaskdb -sid 1234 -wwn xxxxxxx list devs : List the devices masked to the given wwn number .
+
+symmask
+
+symmask list hba : List the HBA details of the host.
+symmask -sid 1234 -dir 4a -p 0 list logins : List out wwn s logged through port 4a:0 .
+symmask -sid 1234 refresh : Refresh the VCM Data Base after a masking and unmasking operation.
+symmask -sid 1234 -wwn xxxx -dir 4a -p 0 add devs ABC,ABD : Mask the devices ABC and ABD to the given wwn in 1234 arrray .
+symmask -sid 1234 -wwn xxxx -dir 4a -p 0 remove devs ABC,ABD : Unmask the devices ABC and ABD from the given wwn in 1234 arrray .
+
+symdg
+
+symdg -sid 1234 list : List the device groups which include the devices from array 1234.
+symdg create mydg -type rdf1 : Create device group mydg of rdf1 type .
+symdg show mydg : Shows the members/details of mydg.
+symdg rename mydg yourdg : Renames the mydg to yourdg.
+symdg delete mydg -force : Delete device group mydg.
+
+symld
+
+symld -g mydg -sid 1234 add dev ABC DEV006 : Add the RDF device ABC to device group mydg as DEV006
+symld -g mydg remove DEV006 : Remove DEV006 form device group mydg.
+
+symrdf
+
+symrdf -sid 1234 -rdfg 3 -type rdf1 -file rdf.txt -g mydg createpair -establish : Establish the SRDF relation between the devices given in the file rdf.txt from array 1234(R1) and remote box according to the rdf group . This command start sync between R1 and R2, and also add these devices after creating the device group mydg.
+symrdf -sid 1234 -rdfg 3 -file rdf.txt query : Query the Devices by using the device pair file.
+symrdf -g mydg set mode acp_disk : Set syncing mode to Adaptive Copy.
+symrdf -g mydg query : Query the device group.
+symrdf -g mydg split : Split the dynamic srdf pair.
+symrdf -sid 1234 -rdfg 3 -file rdf.txt deletepair.txt -force : Delete the srdf pairing between R1/R2 and return them to normal.
+
+symdisk
+
+symdisk -sid 1234 list -hotspare : Lists the Hotpsraes configured in the array.
+symdisk -sid 1234 list -by_diskgroup : Dispalys all the disks in the array by grouping by disk groups.
+symdisk -sid 1234 list -diskg_roup 1 : Dispalys all the disks in disk group 1.
+
+
