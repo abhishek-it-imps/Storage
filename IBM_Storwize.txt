@@ -1,2 +1,6 @@
 https://www.ibm.com/it-infrastructure/storage/storwize
 
+Specific to the Storwize V7000 Gen2 implementation, the address space that is mapped
+between the logical entity is referred to as volume, and the physical disk is referred to as
+managed disks (MDisks).
+
