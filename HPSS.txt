@@ -1,5 +1,8 @@
 https://www.hpss-collaboration.org/
 
+hpss user guide: https://www.hpss-collaboration.org/documents/HPSS_9.2.0_Users_Guide.pdf
+hpssadmin guide : 
+
 These are the publicly disclosed HPSS deployments that have accumulated a petabyte or more of data. Each entry represents a single instance of HPSS; the capacity numbers for a single HPSS namespace.
 
 Sites - 3Q2021	Petabytes	M Files	Since
