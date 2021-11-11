@@ -1,0 +1,45 @@
+https://www.hpss-collaboration.org/
+
+These are the publicly disclosed HPSS deployments that have accumulated a petabyte or more of data. Each entry represents a single instance of HPSS; the capacity numbers for a single HPSS namespace.
+
+Sites - 3Q2021	Petabytes	M Files	Since
+(ECMWF) European Centre for Medium-Range Weather Forecasts	597.22	403.36	2002
+(UKMO) United Kingdom Met Office	459.48	922.56	2009
+(SSC) Shared Services Canada	330.58	35.84	2017
+(Meteo-France) Meteo France - French Weather and Climate	289.28	741.37	2015
+(NOAA-RD) National Oceanic and Atmospheric Administration Research & Development	252.73	110.70	2002
+(LBNL-User) Lawrence Berkeley National Laboratory - User	241.85	237.67	1998
+(BNL) Brookhaven National Laboratory	217.96	228.87	1998
+(MPCDF) Max Planck Computing and Data Facility	191.02	94.78	2011
+(ORNL) Oak Ridge National Laboratory	152.85	537.15	1997
+(CEA TERA) Commissariat a l`Energie Atomique - Tera Project	138.90	31.45	1999
+(DKRZ) Deutsches Klimarechenzentrum	136.46	24.26	2009
+(LANL-Secure) Los Alamos National Laboratory - Secure	104.52	1058.12	1997
+(IU) Indiana University	103.40	246.90	1999
+(LLNL-Secure) Lawrence Livermore National Laboratory - Secure	101.37	1420.63	1998
+(CEA TGCC) Commissariat a l`Energie Atomique - Très Grand Centre de calcul	100.97	31.75	2010
+(IN2P3) Institut National de Physique Nucleaire et de Physique des Particules	100.92	100.10	1999
+(ANL) Argonne National Laboratory	96.70	892.94	2008
+(DWD) Deutscher Wetterdienst	75.44	37.17	2011
+(NCAR) National Center for Atmospheric Research	71.34	248.83	2009
+(LLNL-Open) Lawrence Livermore National Laboratory - Open	66.53	1571.75	1997
+(Purdue) Purdue University	56.74	456.29	2011
+(SLAC) Stanford Linear Accelerator Center	55.59	15.16	1999
+(JAXA) Japan Aerospace Exploration Agency	51.73	259.89	2009
+(HLRS) High Performance Computing Center Stuttgart	47.56	11.89	2008
+(KEK) High Energy Accelerator Research Organization	38.16	84.20	2001
+(KIT) Karlsruhe Institute of Technology	37.31	349.22	2015
+(SciNet) SciNet HPC Consortium	35.07	51.18	2011
+(LBNL-Backup) Lawrence Berkeley National Laboratory - Backup	34.32	20.41	1997
+(PNNL) Pacific Northwest National Laboratory	26.79	149.73	2010
+(CNES) Centre National d'Etudes Spatiales	23.08	25.71	2015
+(NOAA-C Asheville) National Oceanic and Atmospheric Administration - Comprehensive Large Array-data Stewardship System - Asheville	18.17	832.21	2014
+(ASDC) NASA Atmospheric Science Data Center	14.82	54.70	2018
+(LaRC) NASA Langley Research Center	13.14	48.54	1998
+(IITM) Indian Institute of Tropical Meteorology	12.40	91.88	2020
+(LANL-Open) Los Alamos National Laboratory - Open	10.03	192.67	1997
+(SNL-Open) Sandia National Laboratory - Open	7.42	146.73	1996
+(SNL-Secure) Sandia National Laboratory - Secure	6.91	86.72	1996
+(NCMRWF) India's National Centre for Medium Range Weather Forecasting	5.95	166.08	2020
+(NCEI) National Center for Environmental Information	5.69	115.10	1998
+(UTAS) University of Tasmania Research Data Management System	0.23	11.52	2020
